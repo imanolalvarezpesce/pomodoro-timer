@@ -1,0 +1,120 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+  transition: all 0.3s ease;
+}
+
+.App:hover {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+#break-label, #session-label {
+  font-size: 18px;
+  color: #555;
+  font-weight: 500;
+}
+
+#break-length, #session-length {
+  font-size: 30px;
+  color: #333;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+button {
+  margin: 10px;
+  padding: 15px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+  background-color: #45a049;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #388e3c;
+  transform: translateY(-2px);
+}
+
+#timer {
+  margin-top: 40px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff6f61;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+#time-left {
+  font-size: 80px;
+  color: #333;
+}
+
+#timer-label {
+  font-size: 20px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+#start_stop, #reset {
+  font-size: 20px;
+  width: 150px;
+}
+
+#start_stop {
+  background-color: #ff9800;
+}
+
+#reset {
+  background-color: #f44336;
+}
+
+#start_stop:hover {
+  background-color: #fb8c00;
+}
+
+#reset:hover {
+  background-color: #e57373;
+}
+
+#session-decrement, #session-increment, #break-decrement, #break-increment {
+  background-color: #2196F3;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+#session-decrement:hover, #session-increment:hover, #break-decrement:hover, #break-increment:hover {
+  background-color: #1976D2;
+}
